@@ -14,7 +14,7 @@ import getVisableExpenses from './selectors/expenses'
 const store =configureStore();
 
 
-
+console.log("test")
 
  
 
