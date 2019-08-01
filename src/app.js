@@ -13,10 +13,9 @@ import getVisableExpenses from './selectors/expenses'
 
 const store =configureStore();
 
-store.dispatch(addExpense({description:"Water bill",amount:4500,createdAt:2000}))
-store.dispatch(addExpense({description:"Gas bill",amount:1000,createdAt:3000}))
 
-const state =store.getState();
+
+
  
 
 
