@@ -9,7 +9,9 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "test": " jest"
+    "test": " jest",
+    "start":"node server/server.js",
+    "heroku-postbuild":"yarn run build:prod"
   },
   "dependencies": {
     "@babel/cli": "^7.5.5",
@@ -24,6 +26,7 @@
     "babel-preset-react": "^7.0.0-beta.3",
     "bootstrap": "3",
     "css-loader": "0.28.4",
+    "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "jest": "^24.8.0",
     "live-server": "^1.2.1",
